@@ -1,24 +1,58 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Ali Cenik</title>
-  <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; margin: 2rem; line-height: 1.6; }
-    .card { max-width: 1200px; padding: 2rem; border: 2px solid #e5e7eb; border-radius: 15px; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolyom | Adınız Soyadınız</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-  <div class="card">
-    <h1>Merhaba web sayfama hoş geldiniz👋</h1>
-    <h2>Sitem kurulum aşamasındadır... </h2>
-  </div>
+
+    <nav>
+        <div class="logo">Portfolyom</div>
+        <ul>
+            <li><a href="#home">Ana Sayfa</a></li>
+            <li><a href="#projects">Projeler</a></li>
+            <li><a href="#contact">İletişim</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <h1>Merhaba, Ben <span class="highlight">Adınız</span></h1>
+        <p>Geliştirici & Tasarımcı</p>
+        <a href="#projects" class="btn">Projelerimi Gör</a>
+    </header>
+
+    <section id="projects">
+        <h2 class="section-title">Projelerim</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Proje Adı 1</h3>
+                    <p>Projeniz hakkında kısa bir açıklama. Hangi teknolojileri kullandınız?</p>
+                    <a href="#" target="_blank">İncele <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Proje Adı 2</h3>
+                    <p>Diğer bir başarılı çalışmanızın detayları buraya gelecek.</p>
+                    <a href="#" target="_blank">İncele <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2>Bana Ulaşın</h2>
+        <div class="social-links">
+            <a href="https://github.com/kullaniciadin" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/kullaniciadin" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:email@adresiniz.com"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p>&copy; 2026 Tüm Hakları Saklıdır.</p>
+    </footer>
+
 </body>
 </html>
-
-
-
-
-
-
